@@ -38,4 +38,4 @@ with open('data.json', 'w') as file:
 showing_graph(processed_results[1])
 
 A, B, C = user_input()
-calculate_danger(processed_results[1], user_input())
+calculate_danger(processed_results[1], A, B, C)
